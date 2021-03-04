@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12.5em;
+    border: 1px solid rgb(32, 28, 248);
+}
+.box {
+    background-color: deepskyblue;
+    height: 4em;
+    width: 13%;
+    border: 1px solid rgb(32, 28, 248);
+    text-align: center;
+}
+/* Tablette */
+@media screen and (max-width: 800px)
+{
+    .container{
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      height: 12em;
+    }
+    .box{
+      width: 25%;
+      height: 5em;
+    }
+  }
+  /* Mobile large */
+  @media screen and (max-width: 500px)
+  {
+    .container{
+      display: flex;
+      flex-wrap: wrap;
+      height: 14em;
+    }
+    .box{
+      width: 40%;
+      height: 4em;
+    }
+  }
+  /* Mobile petit */
+  @media screen and (max-width: 400px)
+  {
+    .container{
+      display: flex;
+      flex-wrap: wrap;
+      height: 26em;
+    }
+    .box{
+      width: 60%;
+      height: 4em;
+    }
+  }

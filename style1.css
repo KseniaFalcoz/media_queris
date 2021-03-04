@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    /* flex-direction: row;  par defaut */
+    height: 200px;
+    background-color: darkgray;
+}
+.box {
+    background-color: green;;
+    height: 198px;
+    width: 30%;
+    border: 1px solid #000;
+}
+.rectangle {
+    background-color: yellow;
+    height: 200px;
+    width: 100%;
+}
+@media screen and (max-width: 980px)
+{
+.container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+.box{
+    background-color: lightgreen;
+    }
+}
