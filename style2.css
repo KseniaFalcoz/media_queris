@@ -13,7 +13,7 @@
     text-align: center;
 }
 /* Tablette */
-@media screen and (max-width: 800px)
+@media screen and (max-width: 1024px)
 {
     .container{
       display: flex;
@@ -27,7 +27,7 @@
     }
   }
   /* Mobile large */
-  @media screen and (max-width: 500px)
+  @media screen and (max-width: 767px)
   {
     .container{
       display: flex;
